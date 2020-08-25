@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rasode_mei_kaun_tha", # Replace with your own username
-    version="0.0.6",
+    version="0.0.7",
     author="imzain448",
     author_email="ahmadzain.448@gmail.com",
     description="the mystery unveiled",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/imZain448/dummy_pypi_package",
     packages=setuptools.find_packages(),
+    package_data = {"":['rasode_mei_kaun_tha\disp.jpg']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
