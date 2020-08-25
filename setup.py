@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rasode_mei_kaun_tha", # Replace with your own username
-    version="0.0.4",
+    version="0.0.6",
     author="imzain448",
     author_email="ahmadzain.448@gmail.com",
     description="the mystery unveiled",
