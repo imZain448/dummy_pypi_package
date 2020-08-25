@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def kaun_tha(loud=False):
     if loud:
         print('RASHI BEN')
-        img = plt.imread('rasode_mei_kaun_tha/disp.jpg')
+        img = plt.imread('rasode_mei_kaun_tha\disp.jpg')
         plt.imshow(img)
         ax= plt.gca()
         ax.axes.xaxis.set_visible(False)
