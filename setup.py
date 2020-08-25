@@ -11,7 +11,7 @@ setuptools.setup(
     description="the mystery unveiled",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/imZain448/dummy_pypi_package",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,5 +19,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires = ['matplotlib.pyplot']
+    install_requires = ['matplotlib']
 )
